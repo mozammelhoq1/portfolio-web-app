@@ -7,7 +7,7 @@ function CustomLink({ children, to, ...props }) {
   return (
     <div className="m-2 bg-light  shadow-sm px-3 py-1 rounded-pill">
       {match ? (
-        <Link className="text-danger text-decoration-none" to={to} {...props}>
+        <Link className="text-primary text-decoration-none" to={to} {...props}>
           {children}
         </Link>
       ) : (
