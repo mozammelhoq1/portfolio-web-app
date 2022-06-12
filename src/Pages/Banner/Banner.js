@@ -17,6 +17,7 @@ const Banner = () => {
         backgroundSize: "cover",
         backgroundAttachment: "fixed",
         padding: "0 !important",
+        width: "100%",
       }}
     >
       <Col className="text-center">
@@ -47,10 +48,15 @@ const Banner = () => {
           />
         </h2>
         <div className="my-5">
-          <Button className="btn btn-outline-light fw-bold btn-sm  shadow-sm rounded-3 me-5">
-            Hire Me
-          </Button>
-          <a href="mozammel_hoq_resume.pdf" download="mozammel_hoq_resume.pdf">
+          <a href="https://www.linkedin.com/in/md-mozammel-hoq/" src="_blank">
+            <Button className="btn btn-outline-light fw-bold btn-sm  shadow-sm rounded-3 me-5">
+              Hire Me
+            </Button>
+          </a>
+          <a
+            href="MD_Mozammel_Hoq_Frontend_Developer_Resume_2022.pdf"
+            download="MD_Mozammel_Hoq_Frontend_Developer_Resume_2022.pdf"
+          >
             <Button className="btn btn-outline-light fw-bold btn-sm  shadow-sm rounded-3">
               Get Resume
             </Button>

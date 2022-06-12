@@ -1,0 +1,38 @@
+.item-img {
+  overflow: hidden;
+  cursor: no-drop;
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.item-img .item-info {
+  position: absolute;
+  bottom: 0;
+  /* background: #0d6efd; */
+  background: rgba(13, 110, 253, 0.4);
+  /* background: rgba(12, 12, 12, 0.4); */
+  color: #f1f1f1;
+  width: 100%;
+}
+
+.item-img img {
+  cursor: zoom-in;
+  width: 100%;
+  min-height: 250px;
+  transition: transform 3s ease;
+}
+
+.item-img img:hover {
+  transform: scale(1.2);
+  overflow: hidden;
+}
+
+/* .item-info:hover {
+  position: absolute;
+  bottom: 0;
+  
+  background: rgba(14, 13, 13, 0.1);
+  color: #000;
+  width: 100%;
+} */

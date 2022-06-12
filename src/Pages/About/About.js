@@ -1,10 +1,11 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import coming from "../../images/coming-soon/coming-soon.png";
 
 const About = () => {
   return (
     <Container>
-      <h1>this is About</h1>
+      <img src={coming} className="w-100  h-100" alt="" />
     </Container>
   );
 };

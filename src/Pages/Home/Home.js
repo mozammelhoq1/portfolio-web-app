@@ -1,15 +1,18 @@
 import React from "react";
 import About from "../About/About";
 import Banner from "../Banner/Banner";
-import Portfolio from "../Portfolio/Portfolio";
 import Contact from "../Contact/Contact";
 import { Container } from "react-bootstrap";
+import Skill from "../Skill/Skill";
+import Portfolio from "../Portfolio/Portfolio";
 
 const Home = () => {
   return (
     <>
       <>
         <Banner />
+        <Portfolio />
+        {/* <Skill /> */}
       </>
     </>
   );
